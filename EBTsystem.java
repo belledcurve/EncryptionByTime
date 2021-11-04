@@ -244,14 +244,14 @@ System.out.println();
 if (b <= 1200)
 {
 	System.out.print ("encrypted at: " );
-	System.out.print(timei); System.out.print(timeii); System.out.print(";"); System.out.print (timeiii); System.out.print(timeiv); System.out.print(" A.M");
+	System.out.print(timei); System.out.print(timeii); System.out.print(":"); System.out.print (timeiii); System.out.print(timeiv); System.out.print(" A.M");
 }
-else if (b >= 1200)	
+else if (b >= 1200 && b < 1300)	
 {
 	System.out.print ("encrypted at: " );
-	System.out.print(timei); System.out.print(timeii); System.out.print(";"); System.out.print (timeiii); System.out.print(timeiv); System.out.print(" P.M");
+	System.out.print(timei); System.out.print(timeii); System.out.print(":"); System.out.print (timeiii); System.out.print(timeiv); System.out.print(" P.M");
 }
-else if (b >= 1300)
+else if (b >= 1300 && b < 2200)
 {
 	String tima = Integer.toString (b-1200);
 	int timev = 0;
@@ -259,7 +259,7 @@ else if (b >= 1300)
 	int timevii = Integer.parseInt(tima.substring (1,2));
 	int timeix = Integer.parseInt(tima.substring (2,3));
 	System.out.print ("encrypted at: " );
-	System.out.print(timev); System.out.print(timevi); System.out.print(";"); System.out.print (timevii); System.out.print(timeix); System.out.print(" P.M");
+	System.out.print(timev); System.out.print(timevi); System.out.print(":"); System.out.print (timevii); System.out.print(timeix); System.out.print(" P.M");
 }
 else if (b >= 2200)
 {
@@ -269,7 +269,7 @@ else if (b >= 2200)
 	int timevii = Integer.parseInt(tima.substring (2,3));
 	int timeix = Integer.parseInt(tima.substring (3,4));
 	System.out.print ("encrypted at: " );
-	System.out.print(timev); System.out.print(timevi); System.out.print(";"); System.out.print (timevii); System.out.print(timeix); System.out.print(" P.M");
+	System.out.print(timev); System.out.print(timevi); System.out.print(":"); System.out.print (timevii); System.out.print(timeix); System.out.print(" P.M");
 }
 
 	
