@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ivyreject
-/* I'm a high school senior studying R and Java. This page is a personal page for me to post codes and programs 
+/* I'm a college freshman studying Statistics --and rejected from Cornell--. This page is a personal page for me to post codes and programs 
 I develop throughout my learning progress. The posts are mainly going to be on Java and sporadically R */
 
 
