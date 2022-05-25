@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 
-public class EBT {
+public class EBTsystem {
 
     @SuppressWarnings("resource")
     public static void main(String[] args) {
