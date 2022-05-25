@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @ivyreject
-/* I'm a college freshman studying data science at NYU CAS. This page is a personal page for me to post codes and programs 
-I develop throughout my learning progress. The posts are mainly going to be on Java and sporadically R */
+/* This code is an encryption system that encrypts a message using Vigenère cypher by time of encryption. */
 
 
 
