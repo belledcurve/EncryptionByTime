@@ -11,7 +11,7 @@ public class EBT {
         Scanner io = new Scanner (System.in);
 
         System.out.println ("");
-        System.out.println ("cf.) denote whitespace with slash '/'");
+        System.out.println ("cf.) whitespace notation is available");
         System.out.println ("cf.) usable ASCII codes are: !, ?, ~, =, <, >, @, ,(comma), .(period).  ");
 
         System.out.print("text to encrypt: ");
